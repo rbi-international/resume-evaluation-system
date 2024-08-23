@@ -7,10 +7,6 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
 list_of_files = [
-    "data/raw_resumes/",
-    "data/processed_data/",
-    "models/trained_model/",
-    "models/evaluation/",
     "src/data_preprocessing.py",
     "src/feature_extraction.py",
     "src/model_training.py",
